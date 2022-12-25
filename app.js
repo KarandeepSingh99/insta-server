@@ -4,7 +4,7 @@ const express=require("express");
 // J0e09v7KtL9NEwOK
 //karan
 const app=express();
-const PORT=process.env.PORT;
+const PORT=process.env.PORT || 6000;
 const mongoose = require("mongoose");
 // const { mongoUrl } = require("./keys");
 const cors = require("cors");
